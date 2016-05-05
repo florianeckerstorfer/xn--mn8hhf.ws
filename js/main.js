@@ -56,6 +56,7 @@
     var setReason = function (text, emoji) {
         document.querySelector('.thanks .reason').textContent = text;
         document.querySelector('.thanks .emoji-reason').textContent = emoji;
+        document.querySelector('.thanks .permalink').setAttribute('href', '/'+emoji);
     };
 
     var setRandomReason = function (reasons) {

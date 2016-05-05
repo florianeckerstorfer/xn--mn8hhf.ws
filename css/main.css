@@ -1,20 +1,11 @@
+html {
+    height: 100%;
+}
+
 body {
     font: 16px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    height: 100%;
     margin: 0;
-    padding: 0;
-}
-
-a:link,
-a:active,
-a:visited {
-    color: #65548a;
-    display: inline-block;
-    margin: -15px;
-    padding: 15px;
-}
-
-a:hover {
-    text-decoration: none;
 }
 
 .thanks-wrapper {
@@ -37,15 +28,55 @@ a:hover {
     position: relative;
 }
 
-.page-footer {
-    bottom: 0;
-    overflow: hidden;
-    padding: 5px 0;
-    position: absolute;
+.thanks a {
+    color: blue;
+    display: inline-block;
+    font: 12px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 18px;
+    margin: -5px;
+    padding: 5px;
     text-align: center;
-    width: 100%;
+    text-decoration: none;
+    transition: transform .1s ease-in;
 }
 
-.page-footer a.emoji-link {
+.thanks a:hover {
+    transform: scale(2);
+}
+
+.author {
+    color: #999;
+    font: 12px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    left: 0;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    text-transform: lowercase;
+    top: 0;
+}
+
+.author a {
+    background: no-repeat left center/contain url(/img/fe-logo.svg);
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    padding-left: 28px;
+    vertical-align: middle;
+}
+
+.author a:link, .author a:active, .author a:visited {
+    color: #e64c66;
     text-decoration: none;
+}
+
+.author a .name {
+    display: inline-block;
+    text-indent: -300px;
+    transition: text-indent .3s ease-out;
+    overflow: hidden;
+}
+
+.author a:hover .name,
+.author a:focus .name {
+    text-indent: 0;
 }
