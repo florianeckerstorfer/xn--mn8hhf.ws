@@ -80,3 +80,17 @@ body {
 .author a:focus .name {
     text-indent: 0;
 }
+
+.imprint {
+    font: 12px Helvetica Neue,Helvetica,Arial,sans-serif;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+.imprint a {
+    color: #999;
+}
+.imprint a:hover {
+    text-decoration: none;
+}
+
