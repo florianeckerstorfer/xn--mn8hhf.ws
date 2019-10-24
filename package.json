@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^9.0.0",
+    "autoprefixer": "^9.7.0",
     "browser-sync": "^2.24.7",
     "greenkeeper-lockfile": "^1.15.1",
     "gulp": "^4.0.0",
