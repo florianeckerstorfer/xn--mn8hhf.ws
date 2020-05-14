@@ -20,7 +20,7 @@
     "gulp-sourcemaps": "^2.6.4",
     "gulp-uglify": "^3.0.1",
     "gulp-util": "^3.0.8",
-    "jshint": "^2.9.6",
+    "jshint": "^2.11.1",
     "yargs": "^15.0.2"
   }
 }
